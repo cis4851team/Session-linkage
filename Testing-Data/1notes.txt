@@ -1,0 +1,3 @@
+1-10 are normal browsing sessions
+11-20 are private browsing sessions
+you can deduce success by checking if fingerprintsXX.xlsx is empty or not
