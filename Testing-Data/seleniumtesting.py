@@ -82,8 +82,6 @@ def execute_test_plan(driver):
     driver.get("https://heroku-data-explorer.herokuapp.com/")
     get_elem('.btn-lg').click()
     sleep(1)
-    get_elem("#email").send_keys("cis4851team@gmail.com")
-    get_elem("#password").send_keys(".gh0stery\n")
     sleep(5)
     driver.find_elements_by_class_name("connection")[1].click()
     sleep(5)
