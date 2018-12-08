@@ -100,8 +100,6 @@ def execute_test_plan(driver):
 
     # # send email
     # print("sending email")
-    # email_address = "cis4851team@gmail.com"
-    # password = ".gh0stery"
     # driver.get("https://accounts.google.com/signin/v2/sl/pwd?service=mail")
     # sleep(1)
     # driver.switch_to.active_element.send_keys(email_address + '\n')
